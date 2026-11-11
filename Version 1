@@ -1,0 +1,16 @@
+name = input("Enter First Name : ")
+sur_name = input("Enter Last Name : ")
+sec = input("Enter Section: ")
+fav_sub = input("Enter Favourite Subject: ")
+full_name = (name + " " + sur_name)
+count = len(full_name)
+
+print(" ")
+
+print("Formatted Output: ")
+
+
+print(f"Name : {full_name}")
+print(f"Section : {sec}")
+print(f"Favourite Subject : {fav_sub}")
+print(f"Character Count : {count}")
